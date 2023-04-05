@@ -29,7 +29,7 @@ struct SettingsSheetView: View {
     
     var packagemanagers: [PackageManager] = [
         PackageManager(name: "Sileo", desc: "Modern package manager (recommended)", action: PackageManagers.sileo),
-        PackageManager(name: "Zebra", desc: "Cydia-ish look and feel with modern features", action: PackageManagers.zebra),
+        PackageManager(name: "Zebra", desc: "Cydia-ish look and faster than Sileo", action: PackageManagers.zebra),
     ]
     
     var openers: [Opener] = {

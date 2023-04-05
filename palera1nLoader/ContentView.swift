@@ -38,7 +38,7 @@ struct ContentView: View {
                             let platformname = d.getPlatformName() ?? "Unknown"
                             let platformver = d.getPlatformVersion() ?? "Unknown"
                             
-                            console.log("Welcome to palera1n loader")
+                            console.log("Welcome to valera1n loader")
                             console.log(uname())
                             console.log("\(machinename) running \(platformname) \(platformver) (\(modelarch))")
                             let tb = ToolbarStateMoment.s
@@ -114,7 +114,7 @@ struct ContentView: View {
     @ViewBuilder
     var titlebar: some View {
         VStack {
-            Text("palera1n")
+            Text("valera1n")
                 .font(.system(size: 48, weight: .bold))
                 .padding(8)
         }
